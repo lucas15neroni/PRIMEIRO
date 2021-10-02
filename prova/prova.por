@@ -1,10 +1,5 @@
-
-    	
-    	
-    	
-
-
 programa{
+	
 	inclua biblioteca Util --> u
 	inteiro numeros[10], numeroDigitado = 0
 	caracter continue = 's'
@@ -19,7 +14,7 @@ programa{
            escreva("2 - Somar Ímpares\n")
            escreva("3 - Somar Entre 6 e 14\n")
            escreva("4 - Gerar Vetor na Ordem Inversa\n")
-           escreva("5 - Gerar Vetor Copiar Valores Sem Repitir\n")
+           escreva("5 - Gerar Vetor Copiar Valores Sem Repetir\n")
            escreva("9 - FINALIZAR\n")
 		faca{
 				
@@ -137,7 +132,7 @@ programa{
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 933; 
+ * @POSICAO-CURSOR = 564; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
