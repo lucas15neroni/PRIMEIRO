@@ -21,19 +21,19 @@ programa{
 			leia(numeroDigitado)
 
 			se(numeroDigitado == 1){
-				opc1()
+				opcao1()
 			}
 			se(numeroDigitado == 2){
-				opc2()
+				opcao2()
 			}
 			se(numeroDigitado == 3){
-				opc3()
+				opcao3()
 			}
 			se(numeroDigitado == 4){
-				opc4()
+				opcao4()
 			}
 			se(numeroDigitado == 5){
-				opc5()
+				opcao5()
 			}
 			se(numeroDigitado == 9){
 				continue = 'a'
@@ -49,7 +49,7 @@ programa{
 	
 
 
-     funcao opc1(){
+     funcao opcao1(){
      	inteiro somaPares = 0
      	escreva("\nSoma dos N° Pares")
      	escreva("\nOs n° pares são: ")
@@ -63,7 +63,7 @@ programa{
 		escreva("A soma dos números pares é: ",somaPares,"\n")
 	}
 
-	funcao opc2(){
+	funcao opcao2(){
      	inteiro somaImpares = 0
      	escreva("\nSoma dos N° Impares")
      	escreva("\nOs n° impares são: ")
@@ -77,7 +77,7 @@ programa{
 		escreva("\nA soma dos números impares é: ",somaImpares,"\n")
 	}
 
-	funcao opc3(){
+	funcao opcao3(){
 		inteiro somaParcial = 0
 		escreva("\nSoma dos N° Entre 6 e 14")
      	escreva("\nOs n° entre 6 e 14 são: ")
@@ -92,7 +92,7 @@ programa{
 		escreva("\nA soma dos números entre 6 e 14 é: ", somaParcial)
 	}
 
-	funcao opc4(){
+	funcao opcao4(){
 		inteiro inverso[10]
 		inteiro indiceInverso = 9
 		para(inteiro x=0; x<10; x++){ 
@@ -106,7 +106,7 @@ programa{
 		
 	}
 
-	funcao opc5(){
+	funcao opcao5(){
 		inteiro numerosDiferentes[10]
 		para(inteiro x=0; x<10; x++){
 			numerosDiferentes[x] = numeros[x]
@@ -132,7 +132,7 @@ programa{
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 564; 
+ * @POSICAO-CURSOR = 2249; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
