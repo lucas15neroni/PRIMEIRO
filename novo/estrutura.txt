@@ -1,2 +1,0 @@
-enquanto (continua =='S' ou continua =='s')
-escreva("\nO Programa foi finalizado !!!")
